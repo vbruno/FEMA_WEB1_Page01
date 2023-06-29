@@ -1,0 +1,50 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+
+  display: flex;
+  flex-direction: column;    
+
+  background-image: url("./assets/image/planoDeFundo02.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 800px;
+  margin: auto;
+}
+
+img {
+  width: 500px;
+  margin: auto;
+}
+
+.legendaImagem {
+  margin: 0 auto;
+  width: 500px;
+}
+
+nav {
+  border: 1px solid red;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+
+  margin-top: 15px;
+
+  border-radius: 8px;
+  background-color: grey;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: red;
+}
+
